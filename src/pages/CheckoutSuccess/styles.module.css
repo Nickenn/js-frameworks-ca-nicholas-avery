@@ -1,0 +1,39 @@
+.successPage {
+  min-height: 100vh;
+}
+
+h1 {
+  margin-top: 8rem;
+}
+
+.info {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.info p {
+  font-size: 1.4rem;
+}
+
+.info button {
+  border: none;
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  margin-top: 3rem;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: rgba(52, 145, 88, 0.474);
+}
+
+.info button:hover {
+  background-color: rgba(52, 145, 88, 0.343);
+}
+
+.icon {
+  margin-left: 1rem;
+  font-size: 2rem;
+  color: rgba(52, 145, 88, 0.674);
+}

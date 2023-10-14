@@ -1,0 +1,67 @@
+.header {
+  background-color: rgba(52, 145, 88, 0.135);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  font-size: 1.4rem;
+}
+
+.logo {
+  width: 10rem;
+  height: auto;
+  object-fit: cover;
+  margin-left: 1rem;
+  border-radius: 7px;
+}
+
+.nav {
+  position: relative;
+  padding: 20px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-content: center;
+  border-radius: 3px;
+  margin: 1.3rem;
+}
+
+.nav li {
+  margin: 0 20px;
+}
+
+nav a:link,
+nav a:visited {
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 11px 11px;
+  border-radius: 3px;
+}
+
+.nav a:global(.active) {
+  background-color: rgba(52, 145, 87, 0.345);
+}
+
+.nav a:active,
+.nav a:hover {
+  background-color: rgba(52, 145, 87, 0.345);
+}
+
+.cartItemIndicator {
+  position: absolute;
+  top: 0.6rem;
+  right: 2rem;
+  color: rgba(52, 145, 87, 0.345);
+  text-align: center;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    font-size: 1.2rem;
+  }
+}
