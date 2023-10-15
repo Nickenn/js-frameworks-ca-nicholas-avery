@@ -53,7 +53,7 @@ function Contact() {
             action=""
             onSubmit={handleSubmit(onSubmit)}
           >
-            <h1>Please fill out this form</h1>
+            <h1>Contact us</h1>
             <label htmlFor="name">Full Name:</label>
             <input
               type="text"

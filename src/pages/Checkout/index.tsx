@@ -39,7 +39,7 @@ function Checkout() {
   };
 
   return (
-    <main className={styles.cartPage}>
+    <main>
       <h2>Shopping Cart</h2>
       <section className={styles.cartContainer}>
         {cartItems.length === 0 ? (

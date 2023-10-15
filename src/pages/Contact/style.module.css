@@ -1,16 +1,17 @@
 .container {
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(52, 145, 88, 0.135);
 }
 
 .form {
   background-color: rgba(52, 145, 88, 0.135);
-  padding: 3rem 4rem 4rem 4rem;
-  border-radius: 5px;
+  padding: 1rem 10rem 4rem 10rem;
+  border-radius: 8px;
   margin-bottom: 20px;
   margin-bottom: 20rem;
+  margin: 0 auto;
 }
 
 .formError {
@@ -41,5 +42,12 @@
 }
 
 .submitBtn:hover {
-  background-color: rgba(52, 145, 88, 0.135);
+  background-color: rgba(52, 145, 88, 0.39);
+  color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: block;
+  }
 }

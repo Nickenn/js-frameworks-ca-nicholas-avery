@@ -3,7 +3,6 @@ import { useApi } from "../../hooks/useApi";
 import Hero from "../../components/Hero";
 import Search from "../../components/Search";
 import ProductList from "../../components/ProductList";
-import styles from "./styles.module.css";
 
 interface IProduct {
   id: number;
@@ -32,7 +31,7 @@ function Home() {
   }
 
   return (
-    <main className={styles.container}>
+    <main>
       <Hero />
       <Search
         placeholder="Search products"

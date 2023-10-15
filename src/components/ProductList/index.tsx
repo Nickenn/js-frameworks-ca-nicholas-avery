@@ -26,8 +26,8 @@ function ProductList({ products }: IProductListProps) {
     return (
       <div key={id} className={styles.product}>
         <Link style={{ textDecoration: "none" }} to={`/product/${id}`}>
-          <h3 className={styles.pruductTitle}>{title}</h3>
           <img src={imageUrl} alt="product image" />
+          <h4 className={styles.pruductTitle}>{title}</h4>
         </Link>
         <div>
           {discount ? (

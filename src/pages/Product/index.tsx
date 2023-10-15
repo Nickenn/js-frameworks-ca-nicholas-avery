@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import ProductDetails from "../../components/ProductDetails";
-import styles from "./style.module.css";
 
 interface IProduct {
   id: number;
@@ -50,7 +49,7 @@ function Product() {
   }
 
   return (
-    <main className={styles.container}>
+    <main>
       <ProductDetails product={product} />
     </main>
   );
