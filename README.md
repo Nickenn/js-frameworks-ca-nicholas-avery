@@ -75,4 +75,4 @@ Email address: nickeavery@protonmail.com
 | :---------- | -------------------------------------------------------------- |
 |             |
 | Repository  | https://github.com/Nickenn/js-frameworks-ca-nicholas-avery.git |
-| Hosted Demo | [https://tubular-sundae-6343ff.netlify.app/ ](https://comforting-smakager-6181da.netlify.app/contact)https://comforting-smakager-6181da.netlify.app/contact                    |
+| Hosted Demo | https://comforting-smakager-6181da.netlify.app/contact         |
