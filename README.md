@@ -60,7 +60,7 @@ npm install
 1. To run the app, run the following commands:
 
 ```
-npm run dev
+npm start
 ```
 
 ## Contact Information
